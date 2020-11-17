@@ -3,10 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Instagram clone coding</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <nav class="nav">
+    <div class="nav__column"><a href="#"><img id="Insta-logo" src="source/logo.svg"></a></div>
+    <div class="nav__column"><input type="text" id="nav-search" class="fas" placeholder="&#xf002;검색"/></div>
+    <div class="nav__column nav-icons">
+      <i class="fas fa-home"></i>
+      <i class="far fa-paper-plane"></i>
+      <i class="far fa-compass"></i>
+      <i class="far fa-heart"></i>
+      <i class="fas fa-user-circle"></i>
+    </div>
+  </nav>
+  <div class="user">
+    <div class="user__column">
+      <img id="profile" src="source/peng.jpg">
+    </div>
+    <div class="user__column">
+      <div class="user-title">
+        <h1 class="user-name">Giantpengsoo<i id="badge" class="far fa-check-circle"></i></h1>
+        <span class="user-follow">팔로우</span>
+        <span class="user-recommend"><i class="fas fa-caret-down"></i></span>
+        <span class="user-option"><i class="fas fa-ellipsis-h"></i></span>
+      </div>
+      <div class="user-numbers">
+        <span class="user-posts">게시물<span class="bold">91</span></span>
+        <span class="user-followers">팔로워<span class="bold">556천</span></span>
+        <span class="user-following">팔로우<span class="bold">2</span></span>
+      </div>
+      <div class="user-comment">
+        <h2 class="user-krname">펭수</h2>
+        <span class="user-age">펭수(10살)</span>
+        <span class="user-identify">EBS연습생</span>
+        <span class="user-email">contact<i class="fas fa-envelope"></i>giantpengtv@ebs.co.kr</span>
+        <span class="user-youtube">유튜브 채널명 “자이언트 펭TV” 렛츠 구독 👇</span>
+        <a href="https://www.youtube.com/channel/UCtckgmUcpzqGnzcs7xEqMzQ
+        " target="_blank">https://www.youtube.com/channel/UCtckgmUcpzqGnzcs7xEqMzQ
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="award">
+    <div class="award-flexbox">
+      <img src="source/award.jpg">
+      <span>첫번째 상</span>
+    </div>
+  </div>
+  <div class="user-posted">
+    <div class="user-posted__subjects">
+      <span><i class="fas fa-th"></i>게시물</span>
+      <span><i class="fas fa-tv"></i>IGTV</span>
+      <span><i class="fas fa-user-tag"></i>태그됨</span>
+    </div>
+    <div class="user-pictures">
+      <div class="user-pictures__line">
+        <img src="source/pp.jpg">
+        <img src="source/pp2.jpg">
+        <img src="source/pp3.jpg">
+      </div>
+      <div class="user-pictures__line">
+        <img src="source/pp4.jpg">
+        <img src="source/pp5.jpg">
+        <img src="source/pp6.jpg">
+      </div>
+    </div>
+  </div>
+  <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>

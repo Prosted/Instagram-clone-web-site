@@ -1,0 +1,37 @@
+.user-posted{
+    width: 70%;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-posted span{
+    margin: 0px 20px;
+    font-size: 13px;
+    color: rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+.user-posted span i{
+    margin-right: 5px;
+}
+
+.user-pictures{
+    margin-top: 20px;
+}
+
+.user-pictures__line{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.user-pictures__line img{
+    width: 330px;
+    height: 288px;
+    margin: 0px 15px;
+}
+

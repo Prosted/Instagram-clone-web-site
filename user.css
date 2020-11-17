@@ -1,0 +1,125 @@
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.user__column{
+    margin: 0px 40px;
+}
+
+#profile{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.user-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-name{
+    font-size: 25px;
+    margin-right: 40px;
+    position: relative;
+}
+
+.user-follow,
+.user-recommend{
+    display: block;
+    background-color: #0095F6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.user-follow{
+    width: 90px;
+    height: 35px;
+}
+
+.user-recommend{
+    width: 35px;
+    height: 35px;
+}
+
+.user-option{
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.user-numbers{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.user-numbers span{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.bold{
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.user-comment{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-comment span,
+.user-comment h2{
+    margin-bottom:10px;
+}
+
+.user-krname{
+    font-weight: 600;
+}
+
+.user-email i{
+    opacity: 0.4;
+    margin:0px 5px;
+}
+
+.award{
+    margin: 60px 0px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.award-flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.award img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid powderblue;
+}
+
+.award span{
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
