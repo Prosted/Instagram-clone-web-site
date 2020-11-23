@@ -1,0 +1,81 @@
+.look{
+    width: 80%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.look_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner{
+    width: 600px;
+    height: 180px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0,0,0.1);
+    overflow: hidden;
+}
+
+#banner img{
+    width: inherit;
+    height: inherit;
+}
+
+#update{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    height: 150px;
+    margin-top: 40px;
+    border: var(--main-border);
+    background-color:#FFFFFF;
+}
+
+.update-title{
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 17px;
+}
+
+.update-info{
+    color: rgba(0, 0,0,0.5);
+    width: 85%;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+.update-more{
+    display: block;
+    width: 85%;
+    height: 30px;
+    background-color: #0095F6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#delete{
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+
+
+
+

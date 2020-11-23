@@ -1,0 +1,166 @@
+.look-post{
+    width: 600px;
+    height: 1305px;
+    margin-top: 30px;
+    border: var(--main-border);
+    background-color: white;
+}
+
+.look-post__header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: var(--main-border);
+}
+
+.look-post-text{
+    font-size: 14px;
+    opacity: 0.9;
+    margin-left: 5px;
+    margin-right: 370px;
+    cursor: pointer;
+}
+
+.look-post-text:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.look-post-logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.look-post-icon i{
+    cursor: pointer;
+}
+
+.look-post__main img{
+    width: 600px;
+    height: 980px;
+}
+
+.look-post__footer{
+    padding:0px 10px;
+}
+
+#next-photo-buttons{
+    display: flex;
+    align-items: center;
+    margin-left: 145px;
+    margin-right: 200px;
+}
+
+.next-photo-button{
+    margin: 0px 3px;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.next-photo-button:first-child{
+    background-color: #0095F6;
+}
+
+.look-post-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 26px;
+    margin: 10px 0px;
+}
+
+.look-post-icons i{
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+.count-heart{
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.look-post-comment{
+    color: rgba(0,0,0,0.8);
+    line-height: 19px;
+}
+
+.bold{
+    font-weight: 600;
+    margin-right: 3px;
+    font-size: 14px;
+}
+
+.comment-more{
+    cursor: pointer;
+    color: rgba(0,0,0,0.5);
+    font-size: 15px;
+}
+
+.all-comment{
+    display: block;
+    margin:5px 0px;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+
+}
+
+.look-post-author,
+.look-post-account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.look-post-author i,
+.look-post-account i{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.look-post-account{
+    margin: 10px 0px;
+}
+
+.look-post-date{
+    display: block;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 5px;
+}
+
+.look-post-write{
+    border-top: var(--main-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.look-post-write input{
+    outline: none;
+    border:none;
+    display: block;
+    padding: 20px 10px;
+    width: 35vw;
+    box-sizing: border-box;
+}
+
+.look-post-write input::placeholder{
+    font-size: 16px;
+}
+
+.look-post-write span{
+    color: powderblue;
+    cursor: pointer;
+    margin-right: 8px;
+}
