@@ -5,6 +5,7 @@
 /* components */
 @import "components/nav.css";
 @import "components/look-post.css";
+@import "components/user-component.css";
 
 /* screens */
 @import "screens/user.css";

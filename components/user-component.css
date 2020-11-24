@@ -1,0 +1,89 @@
+.look_column:last-child{
+    position: fixed;
+    top: 100px;
+    right: 300px;
+    align-items: flex-start;
+    width:330px;
+    height: 1000%;
+}
+
+.user-component{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    margin: 5px 0px;
+}
+
+.user-component:first-child{
+    margin-top: 20px;
+}
+
+.user-component_column:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-component-name,
+.user-component-text{
+    display: block;
+
+}
+
+.user-component-name{
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.user-component-name:hover{
+    text-decoration: underline;
+}
+
+.user-component-text{
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    margin-top: 5px;
+}
+
+.user-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid steelblue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.lg{
+    width: 55px;
+    height: 55px;
+}
+
+.user-component-follow{
+    font-size: 13px;
+    color: #0095F7;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.look-recommend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    margin:10px 0px;
+}
+
+.look-recommend span:first-child{
+    color: rgba(0,0,0,0.4);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.look-recommend span:last-child{
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
