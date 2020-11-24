@@ -87,6 +87,11 @@
     margin-bottom:10px;
 }
 
+.user-comment a:hover{
+    text-decoration: underline;
+    color: lightskyblue;
+}
+
 .user-krname{
     font-weight: 600;
 }
