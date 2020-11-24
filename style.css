@@ -13,10 +13,10 @@
 @import "screens/badge.css";
 @import "screens/user-posted.css";
 @import "screens/home.css";
+@import "screens/direct.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-  height: 350vh;
   background-color: #fafafa;
 }
 
@@ -33,4 +33,12 @@ a{
 
 .home{
   height: 640vh;
+}
+
+.direct{
+  height: 100vh;
+}
+
+.index{
+  height: 350vh;
 }
