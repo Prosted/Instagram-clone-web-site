@@ -164,3 +164,12 @@
     cursor: pointer;
     margin-right: 8px;
 }
+
+#dog_video{
+    width: 600px;
+}
+
+.look-post:last-child,
+.look-post:nth-child(4){
+    height: 645px;
+}

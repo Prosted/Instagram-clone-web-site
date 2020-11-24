@@ -3,6 +3,7 @@
     width: 600px;
     height: 250px;
     margin-top: 30px;
+    border: var(--main-border);
 
 }
 
