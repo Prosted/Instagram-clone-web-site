@@ -6,6 +6,7 @@
 @import "components/nav.css";
 @import "components/look-post.css";
 @import "components/user-component.css";
+@import "components/friend.css";
 
 /* screens */
 @import "screens/user.css";

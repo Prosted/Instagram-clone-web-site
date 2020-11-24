@@ -1,0 +1,87 @@
+.friends{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    margin-top: 30px;
+
+}
+
+.friends main{
+    padding: 15px 15px;
+}
+
+.friend-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.freinds__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.freinds__header span:first-child{
+    color: rgba(0,0,0,0.4);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.freinds__header span:last-child{
+    color: #0095F7;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.friend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 27%;
+    padding:15px 5px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.friend img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid steelblue;
+    cursor: pointer;
+}
+
+.friend h1{
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.friend__text{
+    font-size: 13px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+.friend-follow{
+    display: block;
+    width: 85%;
+    height: 30px;
+    background-color: #0095F6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
