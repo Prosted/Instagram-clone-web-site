@@ -1,3 +1,37 @@
+#insta-logo{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 99;
+    background-color: #FEFEFE;
+    animation: instaLogoLoading 0.5s linear forwards;
+    animation-delay: 0.5s;
+}
+
+#insta-logo img{
+    margin: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+#insta-logo img:last-child{
+    margin-top: -270px;
+}
+
+@keyframes instaLogoLoading{
+    from{
+        opacity: 1;
+    }to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 .look{
     width: 65%;
     margin-top: 100px;

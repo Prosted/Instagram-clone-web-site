@@ -42,3 +42,15 @@ a{
 .index{
   height: 350vh;
 }
+
+i:active{
+  animation: iconClick 0.5s ease-in-out;
+}
+
+@keyframes iconClick{
+  from{
+    transform: scale(0.95);
+  }to{
+    transform: scale(1);
+  }
+}
