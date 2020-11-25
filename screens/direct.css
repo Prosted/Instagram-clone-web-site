@@ -71,7 +71,7 @@
 
 .direct-component:last-child{
     background-color: #EFEFEF;
-    cursor: default;;
+    cursor: default;
 }
 
 .chats-rheader{
@@ -105,4 +105,121 @@
 .chats-rheader i{
     font-size: 25px;
     cursor: pointer;
+}
+
+.chats-date{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+
+.direct-component-chat{
+    cursor: default;
+    margin-left: 10px;
+    transform: translateX(-15px);
+}
+
+.direct-component-chat img{
+    width: 25px;
+    height: 25px;
+}
+
+.direct-component-chat:last-child{
+    background-color: white;
+}
+
+.direct-component-chat:hover{
+    background-color: unset;
+}
+
+.direct-component-text{
+    border: var(--main-border);
+    border-radius: 30px;
+    padding: 13px 13px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.chat__user{
+    background-color: #EFEFEF;
+    width: 25%;
+    padding: 13px 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 14px;
+    border-radius: 15px;
+    line-height: 17px;
+    margin-left: 370px;
+    transform: translateX(15px);
+}
+
+.direct-component-chat,
+.chat__user{
+    margin-top: -5px;
+    animation: chatFadeInOut 0.7s ease-in-out forwards;
+}
+
+@keyframes chatFadeInOut{
+    0%{
+        opacity: 0;
+    }50%{
+
+    }100%{  
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.chats__column:last-child form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#direct-write{
+    width: 90%;
+    padding: 15px 0px;
+    padding-left: 60px;
+    padding-right: 90px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    outline: none;
+    border:var(--main-border);
+    margin-top: 63px;
+    transition: all 0.5s ease-in-out;
+}
+
+#direct-write:focus{
+    border-color: steelblue;
+}
+
+#direct-write::placeholder{
+    font-size: 16px;
+}
+
+#direct-write__smile,
+#direct-write__paint,
+#direct-write__heart{
+    position: absolute;
+    font-size: 27px;
+    cursor: pointer;
+    top: 74px;
+}
+
+#direct-write__smile{
+    left: 40px;
+}
+
+#direct-write__paint,
+#direct-write__heart{
+    right: 40px;
+}
+
+#direct-write__paint{
+    right: 80px;
 }
